@@ -1,0 +1,50 @@
+{
+"version": 3,
+"mappings": "AACA,kBAAkB;AAClB,QAAS;EACR,KAAK,EAAC,KAAK;EACX,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,2EAAoH;EACjI,MAAM,EAAE,4GAA4G;EACpH,KAAK,EAAE,IAAI;EACP,aAAa,EAAE,IAAI;EACtB,UAAU,EAAE,kBAAkB;;AAG/B,EAAG;EACF,SAAS,EAAC,IAAI;EACd,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,cAAc;EAC7B,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;;AAEnB,EAAG;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,OAAO;EACf,YAAY,EAAE,IAAI;;AAGnB,CAAE;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,MAAM;EACd,WAAW,EAAE,IAAI;;AAElB,IAAK;EACJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,MAAM;EACd,YAAY,EAAE,IAAI;EAClB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAC,4CAA4C;;AAEzD,MAAO;EACN,SAAS,EAAC,OAAO;EACjB,WAAW,EAAC,IAAI;;AAEjB,MAAO;EACN,MAAM,EAAE,IAAI",
+"sources": ["../sass/style.scss"],
+"names": [],
+"file": "style.css"
+@charset "utf-8";
+/* CSS Document */
+.content {
+  width:390px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, rgba(138,15,93,1) 0%, rgba(150,24,195,1) 25%, rgba(68,163,36,1) 68%, rgba(161,156,6,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a0f5d', endColorstr='#a19c06', GradientType=1 );
+color: #fff;
+    border-radius: 30px;
+  box-shadow: #999 -2px -2px 4px;
+  
+}
+h1 {
+  font-size:24px;
+  line-height: 30px;
+  border-bottom: #fff 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+h4 {
+  color: #000;
+  margin: 2px 0px;
+  padding-left: 80px;
+  
+}
+p {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.ref {
+  width: 330px;
+  margin: 0 auto;
+  padding-left: 20px;
+  font-style: italic;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.verse {
+  font-size:1.25rem;
+  font-weight:bold;
+}
+footer {
+  height: 50px;
+}
